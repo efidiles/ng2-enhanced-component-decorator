@@ -1,6 +1,6 @@
 {
   "name": "ng2-enhanced-component-decorator",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Moved to: https://www.npmjs.com/package/ng2-config-initializer-decorator",
   "main": "./lib/index.js",
   "module": "./src/index.js",
@@ -36,7 +36,7 @@
   "peerDependencies": {
     "@angular/core": "^2.0.0",
     "@angular/compiler": "^2.0.0",
-    "zone.js": "^0.7.2",
-    "rxjs": "^5.0.0-rc.5"
+    "zone.js": "^0.6.25",
+    "rxjs": "^5.0.0-beta.12"
   }
 }
