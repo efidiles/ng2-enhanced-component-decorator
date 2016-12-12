@@ -1,7 +1,7 @@
 {
   "name": "ng2-enhanced-component-decorator",
   "version": "0.0.1",
-  "description": "A decorator for ng2 components to allow passing arbitrary data to a custom defined proxy service",
+  "description": "Moved to: https://www.npmjs.com/package/ng2-config-initializer-decorator",
   "main": "./lib/index.js",
   "module": "./src/index.js",
   "typings": "./lib/index.d.ts",
@@ -15,16 +15,6 @@
     "url": "git+https://github.com/efidiles/ng2-enhanced-component-decorator.git"
   },
   "keywords": [
-    "angular2",
-    "decorator",
-    "component",
-    "enhanced",
-    "proxy",
-    "provider",
-    "layout",
-    "general",
-    "generic",
-    "ng2"
   ],
   "author": "Eduard Fidiles",
   "license": "MIT",
