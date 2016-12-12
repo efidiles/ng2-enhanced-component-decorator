@@ -27,6 +27,8 @@ then in a top router component (feature component) do:
 **app.component.ts**
 
 ```js
+import { EnhancedComponent } from 'ng2-enhanced-component-decorator';
+
 // this is the important bit
 @EnhancedComponent<any>({
   layout: 'someLayout',
@@ -66,29 +68,36 @@ const enhancedComponentInitializer: FactoryProvider = {
     };
   },
 };
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    ...
+  ],
+  providers: [
+    enhancedComponentInitializer,
+    ...
+  ],
 ```
 From this point onwards we can use this factory service as a proxy to invoke 
 other specialised services (such as a LayoutManagerService, a MainMenuService etc).
 
-For a full working example check the `./example` folder.
-
-Just: 
-```sh
-$ cd example && npm i && npm start
-```
-
-and open: `http://localhost:4200`
+For a full working example check the `./example` folder.  
+The example show how to statically type the decorator.
 
 ## Author 
 [[jump to TOC](#jump-to)]
 
 **Eduard Fidiles**
 
-* [github/efidiles](https://github.com/efidiles)
-* [twitter/efidiles](http://twitter.com/efidiles)
+* [github/efidiles](https://github.com/efidiles)  
+* [twitter/efidiles](http://twitter.com/efidiles)  
 
 ## License 
-[[jump to TOC](#jump-to)]
-https://github.com/efidiles/ng2-enhanced-component-decorator.git
-Copyright © 2016, [Eduard Fidiles](https://github.com/efidiles).
+[[jump to TOC](#jump-to)]  
+[https://www.npmjs.com/package/ng2-enhanced-component-decorator](https://www.npmjs.com/package/ng2-enhanced-component-decorator)  
+[https://github.com/efidiles/ng2-enhanced-component-decorator.git](https://github.com/efidiles/ng2-enhanced-component-decorator.git)  
+Copyright © 2016, [Eduard Fidiles](https://github.com/efidiles).  
 Released under the [MIT license](https://github.com/ng2-enhanced-component-decorator/ng2-enhanced-component-decorator/blob/master/LICENSE).

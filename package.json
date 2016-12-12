@@ -1,6 +1,6 @@
 {
   "name": "ng2-enhanced-component-decorator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A decorator for ng2 components to allow passing arbitrary data to a custom defined proxy service",
   "main": "./lib/index.js",
   "module": "./src/index.js",
